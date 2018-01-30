@@ -117,8 +117,8 @@ def env_extras(**kwargs):
 
 
 def env_options():
-    return {"host": "127.0.0.1",
-            "external_host": "web-platform.test",
+    return {"host_ip": "127.0.0.1",
+            "host": "web-platform.test",
             "bind_hostname": "false",
             "certificate_domain": "web-platform.test",
             "supports_debugger": True}
